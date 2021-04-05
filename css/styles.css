@@ -13,8 +13,9 @@
   font-size: 2.5em;
 }
 .margins{
-<<-margin-left: 100px;
-  padding: 3% 15%;
+
+padding-top: 150px;
+padding: 5% 15%;
 }
 .container-fluid{
 padding: 3% 15%;
@@ -46,13 +47,15 @@ h2{
 
 .title-image{
   transform: rotate(25deg);
+  padding-top: 100px;
 }
 
 
 #features{
   margin: auto;
-  padding: 5% 2% 5%;
+  padding: 10% 10% 15%;
   text-align: center;
+  font-weight: bold;
 }
 
 #testimonials{
@@ -62,11 +65,13 @@ h2{
   padding: 3% 4% 5%;
   background-color: #ff4c68;
   text-align: center;
+  line-spacing:20px;
 }
 #press{
-  margin: auto;
-  padding: 5% 10% 10%;
-  padding-bottom:10px;
+  align-items: center;
+  padding: 10% 10% 15%;
+  position: relative;
+  left: 100px;
 }
 
 #pricing{
@@ -74,33 +79,22 @@ h2{
   margin: auto;
   padding: 5% 10% 10%;
   text-align: center;
-}
-h3{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500; /* black */
-  size:2.5em;
   color:white;
-  line-height: 1.5;
 }
+
 
 h4{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300; /* black */
   size:2em;
-  color:white;
   line-height: 1.5;
 }
-p{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200; /* black */
-  size:1em;
-  color:white;
-  line-height: 1.5;
-}
-
-
 #cta
 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
   text-align: center;
   padding-top:100px;
   background-color: black;
